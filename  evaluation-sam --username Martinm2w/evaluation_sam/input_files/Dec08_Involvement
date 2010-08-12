@@ -1,0 +1,42 @@
+COMPUTIGN FOR INVOLVEMENT :NP INDEX
+qt_thrs:  0.28036363636363637 0.18872727272727272 0.17018181818181818 0.16072727272727272 0.18
+The quintile score of tasneem is: 4 --- actual score: 0.19454545454545455
+The quintile score of darshan is: 5 --- actual score: 0.3018181818181818
+The quintile score of entourage is: 3 --- actual score: 0.18
+The quintile score of mariam is: 1 --- actual score: 0.16
+The quintile score of imran is: 2 --- actual score: 0.16363636363636364
+COMPUTING FOR INVOLVEMENT :TCI INDEX
+qt_thrs:  0.3081967213114754 0.26885245901639343 0.2 0.1540983606557377 0.22950819672131148
+The quintile score of tasneem is: 5 --- actual score: 0.3114754098360656
+The quintile score of darshan is: 4 --- actual score: 0.29508196721311475
+The quintile score of entourage is: 2 --- actual score: 0.18032786885245902
+The quintile score of mariam is: 1 --- actual score: 0.14754098360655737
+The quintile score of imran is: 3 --- actual score: 0.22950819672131148
+COMPUTING FOR INVOLVEMENT :ASM INDEX
+qt_thrs:  0.2140495867768595 0.2074380165289256 0.19504132231404958 0.1834710743801653 0.2024793388429752
+The quintile score of tasneem is: 5 --- actual score: 0.21487603305785125
+The quintile score of darshan is: 4 --- actual score: 0.21074380165289255
+The quintile score of entourage is: 3 --- actual score: 0.2024793388429752
+The quintile score of mariam is: 2 --- actual score: 0.19008264462809918
+The quintile score of imran is: 1 --- actual score: 0.18181818181818182
+COMPUTING FOR INVOLVEMENT :ALLO INDEX
+qt_thrs:  0.21367521367521367 0.21025641025641026 0.19487179487179487 0.1811965811965812 0.20512820512820512
+The quintile score of tasneem is: 2 --- actual score: 0.18803418803418803
+The quintile score of darshan is: 1 --- actual score: 0.1794871794871795
+The quintile score of entourage is: 5 --- actual score: 0.21367521367521367
+The quintile score of mariam is: 5 --- actual score: 0.21367521367521367
+The quintile score of imran is: 3 --- actual score: 0.20512820512820512
+COMPUTING FOR INVOLVEMENT :TI INDEX
+qt_thrs:  36.0 31.6 30.4 30.0 31.0
+The quintile score of tasneem is: 5 --- actual score: 37.0
+The quintile score of darshan is: 3 --- actual score: 31.0
+The quintile score of entourage is: 2 --- actual score: 30.0
+The quintile score of mariam is: 4 --- actual score: 32.0
+The quintile score of imran is: 2 --- actual score: 30.0
+COMPUTING MERGED INVOLVEMENT
+qt_thrs:  7.373880927352164 6.484326351442893 6.252581404090197 6.155440825311467 6.397426226034273
+The quintile score of tasneem is: 5 --- actual score: 7.581786217094712
+The quintile score of darshan is: 3 --- actual score: 6.397426226034273
+The quintile score of entourage is: 1 --- actual score: 6.15529648427413
+The quintile score of mariam is: 4 --- actual score: 6.542259768381973
+The quintile score of imran is: 2 --- actual score: 6.156018189460813

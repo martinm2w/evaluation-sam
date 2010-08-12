@@ -1,0 +1,35 @@
+COMPUTING FOR TOPIC CONTROL: LTI INDEX
+qt_thrs:  0.3572549019607843 0.17137254901960786 0.14313725490196078 0.12823529411764706 0.14901960784313725
+The quintile score of tasneem is: 3 --- actual score: 0.14901960784313725
+The quintile score of darshan is: 4 --- actual score: 0.18627450980392157
+The quintile score of razi is: 5 --- actual score: 0.4
+The quintile score of mariam is: 2 --- actual score: 0.1392156862745098
+The quintile score of hassan is: 1 --- actual score: 0.12549019607843137
+COMPUTING FOR TOPIC CONTROL :SMT INDEX
+qt_thrs:  0.39973045822102415 0.15336927223719676 0.1307277628032345 0.11617250673854447 0.1509433962264151
+The quintile score of tasneem is: 4 --- actual score: 0.15498652291105122
+The quintile score of darshan is: 2 --- actual score: 0.11725067385444744
+The quintile score of razi is: 5 --- actual score: 0.4609164420485175
+The quintile score of mariam is: 1 --- actual score: 0.11590296495956873
+The quintile score of hassan is: 3 --- actual score: 0.1509433962264151
+COMPUTING FOR TOPIC CONTROL :CS INDEX
+qt_thrs:  0.31978609625668447 0.18930481283422462 0.17326203208556148 0.11764705882352941 0.17647058823529413
+The quintile score of tasneem is: 2 --- actual score: 0.1711229946524064
+The quintile score of darshan is: 4 --- actual score: 0.19786096256684493
+The quintile score of razi is: 5 --- actual score: 0.3502673796791444
+The quintile score of mariam is: 1 --- actual score: 0.10427807486631016
+The quintile score of hassan is: 3 --- actual score: 0.17647058823529413
+COMPUTING FOR TOPIC CONTROL:TL INDEX
+qt_thrs:  9.384348131251098 8.435383029886637 6.3706175514626215 5.031229000884173 7.295774647887324
+The quintile score of tasneem is: 3 --- actual score: 7.295774647887324
+The quintile score of darshan is: 4 --- actual score: 9.195121951219512
+The quintile score of razi is: 5 --- actual score: 9.431654676258994
+The quintile score of mariam is: 1 --- actual score: 4.850574712643678
+The quintile score of hassan is: 2 --- actual score: 5.753846153846154
+COMPUTING MERGED TOPIC CONTROL
+qt_thrs:  2.6133931044695675 2.231566591946101 1.708102927487336 1.352331804468128 1.9427259433234798
+The quintile score of tasneem is: 3 --- actual score: 1.9427259433234798
+The quintile score of darshan is: 4 --- actual score: 2.4241270243611814
+The quintile score of razi is: 5 --- actual score: 2.660709624496664
+The quintile score of mariam is: 1 --- actual score: 1.3024928596860168
+The quintile score of hassan is: 2 --- actual score: 1.5516875835965735

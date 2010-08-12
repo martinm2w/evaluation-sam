@@ -1,0 +1,19 @@
+COMPUTING FOR ANNOTATED TASK CONTROL: DI INDEX
+qt_thrs:  0.7142857142857143 0.14285714285714285 0.0 0.0 0.07142857142857142
+The quintile score of darshan is: 1 --- actual score: 0.0
+The quintile score of sana is: 1 --- actual score: 0.0
+The quintile score of razi is: 5 --- actual score: 0.7142857142857143
+The quintile score of mariam is: 4 --- actual score: 0.14285714285714285
+COMPUTING FOR ANNOTATED TASK CONTROL: PMI INDEX
+qt_thrs:  0.4827586206896552 0.20689655172413793 0.13793103448275862 0.0 0.1724137931034483
+The quintile score of darshan is: 3 --- actual score: 0.13793103448275862
+The quintile score of sana is: 1 --- actual score: 0.0
+The quintile score of razi is: 5 --- actual score: 0.4827586206896552
+The quintile score of mariam is: 4 --- actual score: 0.20689655172413793
+CANNOT COMPUTE ANNOTATED MERGED TASK CONTROL
+COMPUTING ANNOTATED MERGED TASK CONTROL
+qt_thrs:  0.5985221674876847 0.1748768472906404 0.13793103448275862 0.0 0.1564039408866995
+The quintile score of darshan is: 3 --- actual score: 0.13793103448275862
+The quintile score of sana is: 1 --- actual score: 0.0
+The quintile score of razi is: 5 --- actual score: 0.5985221674876847
+The quintile score of mariam is: 4 --- actual score: 0.1748768472906404
