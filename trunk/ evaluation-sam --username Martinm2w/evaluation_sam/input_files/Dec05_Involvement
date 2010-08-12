@@ -1,0 +1,36 @@
+COMPUTIGN FOR INVOLVEMENT :NP INDEX
+qt_thrs:  0.5511363636363636 0.22443181818181818 0.12215909090909091 0.10227272727272728 0.17329545454545453
+The quintile score of darshan is: 2 --- actual score: 0.10227272727272728
+The quintile score of sana is: 5 --- actual score: 0.5511363636363636
+The quintile score of razi is: 3 --- actual score: 0.12215909090909091
+The quintile score of mariam is: 4 --- actual score: 0.22443181818181818
+COMPUTING FOR INVOLVEMENT :TCI INDEX
+qt_thrs:  0.6704545454545454 0.23863636363636365 0.13636363636363635 0.06818181818181818 0.1875
+The quintile score of darshan is: 2 --- actual score: 0.06818181818181818
+The quintile score of sana is: 5 --- actual score: 0.6704545454545454
+The quintile score of razi is: 3 --- actual score: 0.13636363636363635
+The quintile score of mariam is: 4 --- actual score: 0.23863636363636365
+COMPUTING FOR INVOLVEMENT :ASM INDEX
+qt_thrs:  0.5608465608465608 0.23809523809523808 0.12698412698412698 0.07407407407407407 0.18253968253968253
+The quintile score of darshan is: 2 --- actual score: 0.07407407407407407
+The quintile score of sana is: 5 --- actual score: 0.5608465608465608
+The quintile score of razi is: 3 --- actual score: 0.12698412698412698
+The quintile score of mariam is: 4 --- actual score: 0.23809523809523808
+COMPUTING FOR INVOLVEMENT :ALLO INDEX
+qt_thrs:  0.38095238095238093 0.3238095238095238 0.1619047619047619 0.13333333333333333 0.24285714285714288
+The quintile score of darshan is: 2 --- actual score: 0.13333333333333333
+The quintile score of sana is: 5 --- actual score: 0.38095238095238093
+The quintile score of razi is: 3 --- actual score: 0.1619047619047619
+The quintile score of mariam is: 4 --- actual score: 0.3238095238095238
+COMPUTING FOR INVOLVEMENT :TI INDEX
+qt_thrs:  82.0 50.0 22.0 17.0 36.0
+The quintile score of darshan is: 2 --- actual score: 17.0
+The quintile score of sana is: 5 --- actual score: 82.0
+The quintile score of razi is: 3 --- actual score: 22.0
+The quintile score of mariam is: 4 --- actual score: 50.0
+COMPUTING MERGED INVOLVEMENT
+qt_thrs:  16.83267797017797 10.204994588744588 4.509482323232323 3.4755723905723905 7.357238455988456
+The quintile score of darshan is: 2 --- actual score: 3.4755723905723905
+The quintile score of sana is: 5 --- actual score: 16.83267797017797
+The quintile score of razi is: 3 --- actual score: 4.509482323232323
+The quintile score of mariam is: 4 --- actual score: 10.204994588744588

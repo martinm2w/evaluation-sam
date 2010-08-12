@@ -1,0 +1,28 @@
+COMPUTING FOR ANNOTATED TOPIC CONTROL: LTI INDEX
+qt_thrs:  0.3192982456140351 0.22105263157894736 0.14736842105263157 0.11228070175438595 0.15789473684210525
+The quintile score of tasneem is: 3 --- actual score: 0.15789473684210525
+The quintile score of darshan is: 4 --- actual score: 0.2631578947368421
+The quintile score of razi is: 5 --- actual score: 0.3333333333333333
+The quintile score of mariam is: 2 --- actual score: 0.14035087719298245
+The quintile score of hassan is: 1 --- actual score: 0.10526315789473684
+COMPUTING FOR ANNOTATED TOPIC CONTROL :SMT INDEX
+qt_thrs:  0.4010928961748633 0.19125683060109291 0.12568306010928962 0.08196721311475409 0.12568306010928962
+The quintile score of tasneem is: 4 --- actual score: 0.23497267759562843
+The quintile score of darshan is: 1 --- actual score: 0.07103825136612021
+The quintile score of razi is: 5 --- actual score: 0.4426229508196721
+The quintile score of mariam is: 3 --- actual score: 0.12568306010928962
+The quintile score of hassan is: 3 --- actual score: 0.12568306010928962
+COMPUTING FOR ANNOTATED TOPIC CONTROL :CS INDEX
+qt_thrs:  0.356140350877193 0.22631578947368422 0.1263157894736842 0.09122807017543859 0.15789473684210525
+The quintile score of tasneem is: 4 --- actual score: 0.2719298245614035
+The quintile score of darshan is: 1 --- actual score: 0.08771929824561403
+The quintile score of razi is: 5 --- actual score: 0.37719298245614036
+The quintile score of mariam is: 2 --- actual score: 0.10526315789473684
+The quintile score of hassan is: 3 --- actual score: 0.15789473684210525
+COMPUTING ANNOTATED MERGED TOPIC CONTROL
+qt_thrs:  0.351826287029048 0.18921484037963762 0.1340235835490365 0.12493528904227783 0.14063848144952545
+The quintile score of tasneem is: 4 --- actual score: 0.22159907966637907
+The quintile score of darshan is: 3 --- actual score: 0.14063848144952545
+The quintile score of razi is: 5 --- actual score: 0.3843830888697153
+The quintile score of mariam is: 1 --- actual score: 0.12376569839900298
+The quintile score of hassan is: 2 --- actual score: 0.12961365161537722
