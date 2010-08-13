@@ -17,13 +17,7 @@ import util.MatchEval;
  */
 public class involvement_sam {
 
-
-   //static String[] categories = {"NPI", "TI", "TCI", "ALLOTP", "ASMI"};
-  //  static String[] speakers = {"kerri", "ken", "kara", "chris", "jennifer", "jianhua", "jenny"};
-
-
     static String[] categories;
-
     static String[] speakers;
 
     static HashMap<String, String> categories_map = new HashMap<String, String>();
@@ -38,18 +32,12 @@ public class involvement_sam {
     static HashMap<String, String[]> human_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
-    /*new_file_names*/
-    static Filenames filename = new Filenames();
-    
     private static boolean readerOpened=false;
     private static BufferedReader eia_br;
 
 
     public static void main(String[] args){
 
-    //   String[] annotators = {"brian", "kerri", "lauren"};
-
-      //  for(int i = 0; i < annotators.length; i++){
             String human_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_Lauren_annotated_with_merge_2";
             String auto_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_automated_with_merge_2";
 
@@ -58,9 +46,6 @@ public class involvement_sam {
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
-
-                /*read in file name*/
-                filename.extractFileNames(human_annotation, auto_annotation);
 
                 String tempstr;
 
@@ -464,7 +449,7 @@ public class involvement_sam {
                     bw.write("---------------- Involvement Evaluation --------------------- \n");
                     
                     /*print file names*/
-	                filename.printFileNames(bw);
+//	                filename.printFileNames(bw);
 	                
                     
 //                    bw.write("Human annotated file: " + human_annotation + "\n");
