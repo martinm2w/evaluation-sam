@@ -1,9 +1,3 @@
-COMPUTIGN FOR INVOLVEMENT :NP INDEX
-qt_thrs:  0.5511363636363636 0.22443181818181818 0.12215909090909091 0.10227272727272728 0.17329545454545453
-The quintile score of darshan is: 2 --- actual score: 0.10227272727272728
-The quintile score of sana is: 5 --- actual score: 0.5511363636363636
-The quintile score of razi is: 3 --- actual score: 0.12215909090909091
-The quintile score of mariam is: 4 --- actual score: 0.22443181818181818
 COMPUTING FOR INVOLVEMENT :TCI INDEX
 qt_thrs:  0.6704545454545454 0.23863636363636365 0.13636363636363635 0.06818181818181818 0.1875
 The quintile score of darshan is: 2 --- actual score: 0.06818181818181818
