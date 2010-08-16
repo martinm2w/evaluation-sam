@@ -1,0 +1,114 @@
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ np ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+entourage < tasneem		entourage < tasneem
+entourage > mariam		entourage > mariam
+entourage < darshan		entourage < darshan
+entourage > imran		entourage > imran
+tasneem > mariam		tasneem > mariam
+tasneem < darshan		tasneem < darshan
+tasneem > imran		tasneem > imran
+mariam < darshan		mariam < darshan
+mariam < imran		mariam < imran
+darshan > imran		darshan > imran
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+entourage < tasneem		entourage < tasneem
+entourage > mariam		entourage < mariam
+entourage < darshan		entourage < darshan
+entourage < imran		entourage = imran
+tasneem > mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem > imran		tasneem > imran
+mariam < darshan		mariam > darshan
+mariam < imran		mariam > imran
+darshan > imran		darshan > imran
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ asm ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+entourage < tasneem		entourage < tasneem
+entourage > mariam		entourage < mariam
+entourage < darshan		entourage < darshan
+entourage > imran		entourage = imran
+tasneem > mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem > imran		tasneem > imran
+mariam < darshan		mariam > darshan
+mariam > imran		mariam > imran
+darshan > imran		darshan > imran
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ allo ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+entourage > tasneem		entourage < tasneem
+entourage = mariam		entourage < mariam
+entourage > darshan		entourage < darshan
+entourage > imran		entourage = imran
+tasneem < mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem < imran		tasneem > imran
+mariam > darshan		mariam > darshan
+mariam > imran		mariam > imran
+darshan < imran		darshan > imran
+::Equalcount		Totalcount		Accuracy
+::3		10		0.3
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+entourage < tasneem		entourage < tasneem
+entourage < mariam		entourage < mariam
+entourage < darshan		entourage < darshan
+entourage = imran		entourage = imran
+tasneem > mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem > imran		tasneem > imran
+mariam > darshan		mariam > darshan
+mariam > imran		mariam > imran
+darshan > imran		darshan > imran
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ merged ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+entourage < tasneem		entourage < tasneem
+entourage < mariam		entourage < mariam
+entourage < darshan		entourage < darshan
+entourage < imran		entourage = imran
+tasneem > mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem > imran		tasneem > imran
+mariam > darshan		mariam > darshan
+mariam > imran		mariam > imran
+darshan > imran		darshan > imran
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
