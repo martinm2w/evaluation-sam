@@ -1,0 +1,90 @@
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ np ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana > mariam
+sana > darshan		sana > darshan
+sana > razi		sana > razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam > razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::6		6		1.0
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ asm ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ allo ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana > mariam
+sana > darshan		sana > darshan
+sana > razi		sana > razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam > razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::6		6		1.0
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ merged ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
