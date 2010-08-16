@@ -9,7 +9,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import util.CompareEval;
-import util.Filenames;
+//import util.Filenames;
 import util.MatchEval;
 
 /**
@@ -41,7 +41,7 @@ public class topic_control_sam {
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
     /*new_file_names*/
-    static Filenames filename = new Filenames();
+//    static Filenames filename = new Filenames();
     
     
     private static boolean readerOpened=false;
@@ -67,7 +67,7 @@ public class topic_control_sam {
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
                 
                 /*read in file name*/
-                filename.extractFileNames(human_annotation, auto_annotation);
+//                filename.extractFileNames(human_annotation, auto_annotation);
 
 
                 String tempstr;
@@ -470,7 +470,7 @@ public class topic_control_sam {
                 	
                 	bw.write("---------------- Topic Control Evaluation --------------------- \n");
                 	
-                	filename.printFileNames(bw);
+//                	filename.printFileNames(bw);
                 	
                 	bw.write("--------------------------------------------------------------- \n");
                 }

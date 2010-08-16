@@ -32,7 +32,7 @@ public class ExtractAndBuild {
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
     /*new_file_names*/
-    static Filenames filename = new Filenames();
+//    static Filenames filename = new Filenames();
         
 	private static boolean readerOpened=false;
 	private static BufferedReader eia_br;
