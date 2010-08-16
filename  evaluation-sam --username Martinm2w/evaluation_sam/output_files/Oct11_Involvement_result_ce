@@ -1,0 +1,114 @@
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ np ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem > hassan
+tasneem < mariam		tasneem < mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan < mariam
+hassan > darshan		hassan > darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem < hassan		tasneem < hassan
+tasneem < mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan > mariam
+hassan > darshan		hassan > darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ asm ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem < hassan
+tasneem < mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan > mariam
+hassan > darshan		hassan > darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ allo ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem < hassan
+tasneem < mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan > mariam
+hassan > darshan		hassan > darshan
+hassan < razi		hassan > razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem > hassan
+tasneem < mariam		tasneem < mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan < mariam
+hassan > darshan		hassan > darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Involvement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ merged ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem < hassan
+tasneem < mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan > mariam
+hassan > darshan		hassan > darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7

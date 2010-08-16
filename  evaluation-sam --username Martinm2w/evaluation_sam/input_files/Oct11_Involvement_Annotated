@@ -1,11 +1,18 @@
-COMPUTING FOR ANNOTATED INVOLVEMENT: TCI INDEX
+COMPUTING FOR ANNOTATED INVOLVEMENT :NP INDEX
+qt_thrs:  0.38051118210862617 0.15878594249201278 0.13913738019169328 0.12156549520766774 0.15495207667731628
+The quintile score of tasneem is: 3 --- actual score: 0.15495207667731628
+The quintile score of darshan is: 1 --- actual score: 0.11980830670926518
+The quintile score of razi is: 5 --- actual score: 0.4353035143769968
+The quintile score of mariam is: 4 --- actual score: 0.16134185303514376
+The quintile score of hassan is: 2 --- actual score: 0.12859424920127796
+COMPUTING FOR ANNOTATED INVOLVEMENT :TCI INDEX
 qt_thrs:  0.4015151515151515 0.25 0.12727272727272726 0.08181818181818182 0.1590909090909091
 The quintile score of tasneem is: 3 --- actual score: 0.1590909090909091
 The quintile score of darshan is: 1 --- actual score: 0.07575757575757576
 The quintile score of razi is: 5 --- actual score: 0.42424242424242425
 The quintile score of mariam is: 2 --- actual score: 0.10606060606060606
 The quintile score of hassan is: 4 --- actual score: 0.3106060606060606
-COMPUTING FOR ANNOTATED INVOLVEMENT: ASM INDEX
+COMPUTING FOR ANNOTATED INVOLVEMENT :ASM INDEX
 qt_thrs:  0.36393442622950817 0.2087431693989071 0.13989071038251366 0.08743169398907104 0.15300546448087432
 The quintile score of tasneem is: 3 --- actual score: 0.15300546448087432
 The quintile score of darshan is: 1 --- actual score: 0.07650273224043716
@@ -19,6 +26,13 @@ The quintile score of darshan is: 1 --- actual score: 0.09649122807017543
 The quintile score of razi is: 4 --- actual score: 0.2982456140350877
 The quintile score of mariam is: 2 --- actual score: 0.11403508771929824
 The quintile score of hassan is: 5 --- actual score: 0.3508771929824561
+COMPUTING FOR ANNOTATED INVOLVEMENT :TI INDEX
+qt_thrs:  128.6 80.6 67.4 45.8 71.0
+The quintile score of tasneem is: 3 --- actual score: 71.0
+The quintile score of darshan is: 1 --- actual score: 41.0
+The quintile score of razi is: 5 --- actual score: 139.0
+The quintile score of mariam is: 4 --- actual score: 87.0
+The quintile score of hassan is: 2 --- actual score: 65.0
 COMPUTING ANNOTATED MERGED INVOLVEMENT
 qt_thrs:  0.35807383585640706 0.24180327868852458 0.13057494705467096 0.08974995860241762 0.15081575025492197
 The quintile score of tasneem is: 3 --- actual score: 0.15081575025492197
