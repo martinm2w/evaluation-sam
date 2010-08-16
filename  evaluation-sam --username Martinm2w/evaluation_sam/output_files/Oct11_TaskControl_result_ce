@@ -1,0 +1,57 @@
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_TaskControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_TaskControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ di ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem < hassan
+tasneem < mariam		tasneem < mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan < mariam
+hassan = darshan		hassan > darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_TaskControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_TaskControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ pmi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem < hassan
+tasneem < mariam		tasneem < mariam
+tasneem > darshan		tasneem < darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan < mariam
+hassan < darshan		hassan = darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_TaskControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_TaskControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ merged ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem > hassan		tasneem < hassan
+tasneem < mariam		tasneem < mariam
+tasneem > darshan		tasneem < darshan
+tasneem < razi		tasneem < razi
+hassan < mariam		hassan < mariam
+hassan < darshan		hassan < darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
