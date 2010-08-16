@@ -51,7 +51,7 @@ public class ExtractAndBuild {
         auto_actual_scores.clear();
     }
 	
-	public void extractSpeakersAndCategoriesToMap(String human_annotation, String auto_annotation){
+	public void extractSpeakersAndCategoriesToMap(String human_annotation){
 		
 		try { //extract names/topics
             BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -107,6 +107,89 @@ public class ExtractAndBuild {
                 getCategories()[ei]=(String)categoriesarray[ei];
 
 //                System.err.println("categories : " + categories[ei]);
+
+            }
+
+
+            br.close();
+
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(topic_disagreement_sam.class.getName()).log(Level.SEVERE, null, ex);
+        }
+          catch(IOException e){
+
+              e.printStackTrace();
+
+        }
+		
+	}
+	
+	public void extractSpknCatToMap_involvement(String human_annotation){
+		
+		try { //extract names/topics
+            BufferedReader br = new BufferedReader(new FileReader(human_annotation));
+
+            /*read in file name*/
+//            filename.extractFileNames(human_annotation, auto_annotation);
+            /*end*/
+
+            String tempstr;
+
+            while((tempstr=br.readLine())!=null){
+                if(tempstr.startsWith("The quintile score of")) {
+                	/* new */
+                	String curname = tempstr.split(" ")[4].toLowerCase(); //get current name
+                    
+                    if( (speakers_map.get(curname)==null)){ //if speaker not yet in list
+                        speakers_map.put(curname, curname); //put the name in corresponding index
+                    }
+                	
+                	
+
+                }
+                
+                if(tempstr.contains("COMPUTING FOR")){//get topics
+                	
+                	/* get current category */
+                	String curCtg = tempstr.split(":")[1].toLowerCase().split(" ")[0]; // get current topic
+
+					if( categories_map.get(curCtg)==null){ //if category not yet in list
+					    categories_map.put(curCtg, curCtg);
+                    }
+                 }
+                
+                if(tempstr.contains("COMPUTING MERGED")){
+                	
+                	if( categories_map.get("merged")==null){ //if category not yet in list
+					    categories_map.put("merged", "merged");
+                    }
+                	
+                }
+            } 
+            
+            Object[] speakerarray=speakers_map.keySet().toArray();
+
+
+            setSpeakers(new String[speakerarray.length]);
+
+            for(int ei=0;ei<speakerarray.length;ei++){
+            	
+                getSpeakers()[ei]=(String)speakerarray[ei];
+
+//                System.err.println("Speakers : " + speakers[ei]);
+
+            }
+
+
+            Object[] categoriesarray=categories_map.keySet().toArray();
+
+            setCategories(new String[categoriesarray.length]);
+
+            for(int ei=0;ei<categoriesarray.length;ei++){
+
+                getCategories()[ei]=(String)categoriesarray[ei];
+
+            System.err.println("categories : " + categories[ei]);
 
             }
 
@@ -225,6 +308,95 @@ public class ExtractAndBuild {
         }
     }
 
+	public void extract_info_human_involment(String evaluation_file, 
+			String human_annotation, 
+			String auto_annotation){
+
+		BufferedReader brh;
+        String tempStr = "";
+        
+        String curtopic="";
+
+        try {
+        	
+           brh = new BufferedReader(new FileReader(human_annotation));
+           
+           while ((tempStr = brh.readLine()) != null){
+        	   
+        	   System.out.println(" cat length" + getCategories().length );
+        	   
+               if(tempStr.contains("COMPUTING FOR ") || tempStr.contains("COMPUTING MERGED")){
+            	  
+            	   System.out.println(" cat length" + getCategories().length );
+            	   
+                   for(int i = 0; i < getCategories().length; i++){
+                       if(tempStr.toLowerCase().contains(getCategories()[i])){
+                          
+                    	   curtopic=getCategories()[i];
+                    	   
+                    	   String qt_thrs = brh.readLine();
+                           String[] qt_thrs1 = qt_thrs.split("\\s+");
+                           String[] qt_thrs_array = new String[qt_thrs1.length-1];
+                           for(int j = 0; j < qt_thrs_array.length; j++){
+                               qt_thrs_array[j] = qt_thrs1[j+1];
+                               //System.out.println(qt_thrs_array[j] + " " + categories[i]);
+                           }
+                           /* save qt_thrs */
+                           human_qt_thrs.put(getCategories()[i], qt_thrs_array);
+
+                           /* save scores */
+                           String speaker = "";
+                           String[] score_array = new String[getSpeakers().length];
+
+
+                           while((speaker = brh.readLine()) != null &&
+                               speaker.contains("The quintile score")) {
+//                               System.out.println("aaaaaaaaa");
+                               for(int k = 0; k < getSpeakers().length; k++){
+                            	   /* new */
+                            	   if(speaker.toLowerCase().contains(getSpeakers()[k] + " ")){
+                                       score_array[k] = speaker.toLowerCase();
+                            	   
+                                   /*String[] speakers_order = speakers[k].split("_");
+                                   if(speaker.toLowerCase().contains(speakers_order[0]+"_"+speakers_order[1]) ||
+                                           speaker.toLowerCase().contains(speakers_order[1]+"_"+speakers_order[0])){
+
+                                        score_array[k] = speaker.toLowerCase();*/
+                                        System.out.println("score_array[" + k + "]: " + score_array[k]);
+                                   }
+                               }
+                           }
+                       human_scores.put(getCategories()[i], score_array);
+                       
+                       }
+                   } /*for(int i = 0; i < categories.length; i++)*/
+
+//                   System.err.println("EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+
+			extract_info_auto_involvement(evaluation_file, human_annotation, auto_annotation, curtopic);
+					
+//			isnew=false;
+                /*if contains qt_thrs*/
+               } /*if(tempStr.contains("calculate Expressive Disagreement -")*/
+               
+
+           } /*while ((tempStr = br.readLine()) != null)*/
+
+
+
+           readerOpened=false; //next human annotator
+           getEia_br().close(); //new file
+
+           brh.close();
+
+
+        } catch (FileNotFoundException e) {
+           e.printStackTrace();
+        } catch (IOException e) {
+           e.printStackTrace();
+        }
+}
+	
 	public void extract_info_auto(String evaluation_file, 
 									String human_annotation, 
 									String auto_annotation,
@@ -320,7 +492,77 @@ public class ExtractAndBuild {
         }
     }
 
+	public void extract_info_auto_involvement(String evaluation_file, 
+			String human_annotation, 
+			String auto_annotation,
+			String curtopic){
+		 String tempStr = "";
 
+
+	        try {
+
+
+	        if(!readerOpened){
+
+					setEia_br(new BufferedReader(new FileReader(auto_annotation)));
+					readerOpened=true;
+
+			}
+
+
+	           while ((tempStr = getEia_br().readLine()) != null){
+	               if(tempStr.contains("COMPUTING FOR ") || tempStr.contains("COMPUTING MERGED")){
+	             
+	            		  for(int i = 0; i < getCategories().length; i++){
+	                       if(tempStr.toLowerCase().contains(getCategories()[i])){
+	                           String qt_thrs = getEia_br().readLine();
+	                           String[] qt_thrs1 = qt_thrs.split("\\s+");
+	                           String[] qt_thrs_array = new String[qt_thrs1.length-1];
+	                           for(int j = 0; j < qt_thrs_array.length; j++){
+	                               qt_thrs_array[j] = qt_thrs1[j+1];
+	                               //System.out.println(qt_thrs_array[j] + " " + categories[i]);
+	                           }
+	                           /* save qt_thrs */
+	                           auto_qt_thrs.put(getCategories()[i], qt_thrs_array);
+
+	                           /* save scores */
+	                           String speaker = "";
+	                           String[] score_array = new String[getSpeakers().length];
+
+	                           while((speaker = getEia_br().readLine())!=null && speaker.contains("The quintile score")) {
+	                               for(int k = 0; k < getSpeakers().length; k++){
+	                            	   /* new */
+	                            	   if(speaker.toLowerCase().contains(getSpeakers()[k] + " ")){
+	                                       score_array[k] = speaker.toLowerCase();
+	                                  
+	                                   }
+	                               }
+	                           }
+	                       auto_scores.put(getCategories()[i], score_array);
+	                       }
+	                   }
+
+	                save_auto_actual_scores();
+	                save_auto_quintile_scores();
+	                save_human_actual_scores();
+	                save_human_quintile_scores();
+
+	 	            writeToEvaluation(evaluation_file, human_annotation, auto_annotation, curtopic);
+	 	            init();
+				break;
+
+	                    /*if contains qt_thrs*/
+	               } /* if(tempStr.contains("calculate Expressive Disagreement -"))*/
+	           } /*while ((tempStr = eia_br.readLine()) != null)*/
+
+	        } catch (FileNotFoundException e) {
+	           e.printStackTrace();
+	        } catch (IOException e) {
+	           e.printStackTrace();
+	        }
+	}
+	
+	
     public void save_human_quintile_scores(){
         Object[] category = human_scores.keySet().toArray();
         for(int i = 0; i < category.length; i++){

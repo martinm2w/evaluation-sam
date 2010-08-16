@@ -22,7 +22,7 @@ public class disagreement_sam {
         String evaluation_file = "D:/m2w cs/evaluation_sam/output_files/Oct11_Disagreement_Annotated_result_ce";
 
         /*extract info*/
-        enb.extractSpeakersAndCategoriesToMap(human_annotation, auto_annotation);
+        enb.extractSpeakersAndCategoriesToMap(human_annotation);
        
         System.err.println("Speakers : " + enb.getSpeakers());
         System.err.println("categories : " + enb.getCategories());
