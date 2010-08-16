@@ -1,0 +1,45 @@
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TaskControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TaskControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ pmi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam = darshan		mariam > darshan
+mariam = razi		mariam < razi
+darshan = razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::0		6		0.0
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TaskControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TaskControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ di ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana = darshan
+sana > razi		sana < razi
+mariam = darshan		mariam > darshan
+mariam = razi		mariam < razi
+darshan = razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::0		6		0.0
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TaskControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TaskControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ merged ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam = darshan		mariam > darshan
+mariam = razi		mariam < razi
+darshan = razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::0		6		0.0

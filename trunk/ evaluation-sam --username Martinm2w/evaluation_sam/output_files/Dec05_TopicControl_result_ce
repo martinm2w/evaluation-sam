@@ -1,0 +1,75 @@
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ lti ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam > darshan		mariam < darshan
+mariam > razi		mariam < razi
+darshan > razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::0		6		0.0
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ smt ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ cs ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana < mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam > darshan		mariam > darshan
+mariam > razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::3		6		0.5
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ tl ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana > mariam
+sana > darshan		sana > darshan
+sana > razi		sana > razi
+mariam < darshan		mariam < darshan
+mariam < razi		mariam < razi
+darshan > razi		darshan > razi
+::Equalcount		Totalcount		Accuracy
+::6		6		1.0
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ merged ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana > razi		sana < razi
+mariam < darshan		mariam < darshan
+mariam < razi		mariam < razi
+darshan > razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333

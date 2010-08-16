@@ -1,19 +1,17 @@
-COMPUTING FOR ANNOTATED TASK CONTROL: DI INDEX
+COMPUTING FOR ANNOTATED TASK CONTROL:DI INDEX
 qt_thrs:  0.12380952380952379 0.028571428571428574 0.0 0.0 0.0
 The quintile score of tasneem is: 4 --- actual score: 0.047619047619047616
 The quintile score of darshan is: 1 --- actual score: 0.0
 The quintile score of entourage is: 1 --- actual score: 0.0
 The quintile score of mariam is: 5 --- actual score: 0.14285714285714285
 The quintile score of imran is: 1 --- actual score: 0.0
-COMPUTING FOR ANNOTATED TASK CONTROL: PMI INDEX
+COMPUTING FOR ANNOTATED TASK CONTROL:PMI INDEX
 qt_thrs:  0.19310344827586207 0.09655172413793103 0.013793103448275858 0.0 0.034482758620689655
 The quintile score of tasneem is: 3 --- actual score: 0.034482758620689655
 The quintile score of darshan is: 4 --- actual score: 0.13793103448275862
 The quintile score of entourage is: 1 --- actual score: 0.0
 The quintile score of mariam is: 5 --- actual score: 0.20689655172413793
 The quintile score of imran is: 1 --- actual score: 0.0
-CANNOT COMPUTE ANNOTATED MERGED TASK CONTROL
-CANNOT COMPUTE ANNOTATED MERGED TASK CONTROL
 COMPUTING ANNOTATED MERGED TASK CONTROL
 qt_thrs:  0.16748768472906403 0.09917898193760263 0.016420361247947452 0.0 0.041050903119868636
 The quintile score of tasneem is: 3 --- actual score: 0.041050903119868636

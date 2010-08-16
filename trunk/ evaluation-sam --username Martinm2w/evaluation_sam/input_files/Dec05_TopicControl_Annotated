@@ -1,4 +1,4 @@
-COMPUTING FOR ANNOTATED TOPIC CONTROL: LTI INDEX
+COMPUTING FOR ANNOTATED TOPIC CONTROL:LTI INDEX
 qt_thrs:  0.3333333333333333 0.2631578947368421 0.14035087719298245 0.0 0.20175438596491227
 The quintile score of darshan is: 4 --- actual score: 0.2631578947368421
 The quintile score of sana is: 1 --- actual score: 0.0
@@ -16,7 +16,12 @@ The quintile score of darshan is: 3 --- actual score: 0.08771929824561403
 The quintile score of sana is: 1 --- actual score: 0.0
 The quintile score of razi is: 5 --- actual score: 0.37719298245614036
 The quintile score of mariam is: 4 --- actual score: 0.10526315789473684
-CANNOT COMPUTE MERGED TOPC
+COMPUTING FOR ANNOTATED TOPIC CONTROL:TL INDEX
+qt_thrs:  5.341463414634147 5.0 4.590909090909091 2.82 4.795454545454545
+The quintile score of darshan is: 4 --- actual score: 5.0
+The quintile score of sana is: 5 --- actual score: 5.341463414634147
+The quintile score of razi is: 3 --- actual score: 4.590909090909091
+The quintile score of mariam is: 2 --- actual score: 2.82
 COMPUTING ANNOTATED MERGED TOPIC CONTROL
 qt_thrs:  0.3843830888697153 0.14063848144952545 0.12376569839900298 0.0 0.13220208992426422
 The quintile score of darshan is: 4 --- actual score: 0.14063848144952545
