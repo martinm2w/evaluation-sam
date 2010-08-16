@@ -21,14 +21,7 @@ public class ExtractInfo {
 			
 			while((tempStr = br.readLine()) != null){
 				
-				if (tempStr.contains("CANNOT")){
-					ArrayList<String> tempList = new ArrayList<String>();
-					tempList.add(tempStr);
-					temp_hfList.add(tempList);
-					continue;
-				}
-				
-				if (tempStr.contains("COMPUTING") || tempStr.contains("COMPUTIGN")){
+				if (tempStr.contains("COMPUTING")){
 					
 					ArrayList<String> tempList = new ArrayList<String>();
 					tempList.add(tempStr);
@@ -113,46 +106,6 @@ public class ExtractInfo {
 		return temp_afList;
 	}
 	
-	public void evenTwoLists(ArrayList<ArrayList<String>> hfList, ArrayList<ArrayList<String>> afList){
-		 
-		ArrayList<Integer> delNum = new ArrayList<Integer>();
-		
-		for (int i = 0; i < hfList.size(); i++){
-			for(int j = 0; j < hfList.get(i).size(); j++){
-				
-				if (hfList.get(i).get(j).contains("CANNOT")){
-					delNum.add(i);
-				}
-			}
-		}
-		if (delNum != null){
-				for (int i = 0; i < delNum.size(); i++){
-					
-					hfList.remove(i);
-					afList.remove(i);
-					
-				}
-		}
-		delNum.clear();
-		
-		for (int i = 0; i < afList.size(); i++){
-			for(int j = 0; j < afList.get(i).size(); j++){
-				
-				if (afList.get(i).get(j).contains("CANNOT")){
-					delNum.add(i);
-				}
-			}
-		}
-		
-		if (delNum != null){
-			for (int i = 0; i < delNum.size(); i++){
-						
-						hfList.remove(i);
-						afList.remove(i);
-			}
-		}
-		delNum.clear();
-	}
 	
 	public HashMap<String, String> extractSpeakers(String human_annotation){//extract names
 			
@@ -206,7 +159,7 @@ public class ExtractInfo {
 		        while((tempstr=br.readLine())!=null){
 		        	
 					/*merged files*/
-			        if(tempstr.contains("COMPUTING MERGED")){
+			        if(tempstr.contains("COMPUTING ANNOTATED MERGED")){
 			        	
 			        	if(temp_categories_map.get("merged") == null){
 			        		
@@ -215,7 +168,7 @@ public class ExtractInfo {
 			        	}
 			        }
 			        /*normal files*/
-			        else if(tempstr.contains("COMPUTIGN FOR")){
+			        else if(tempstr.contains("COMPUTING FOR")){
 			
 			            if( temp_categories_map.get(tempstr.split(":")[1].toLowerCase().split(" ")[0])==null){ //if category not yet in list
 			
@@ -239,32 +192,24 @@ public class ExtractInfo {
 			
 	}
 	
-	public HashMap<String, String[]> extractHumanQtThrs(String[] categories, ArrayList<ArrayList<String>> hfList, int index){
+	public String extractCurTopic(String[] categories, ArrayList<ArrayList<String>> hfList, int index){
 	        
-		HashMap<String, String[]> temp_human_qt_thrs = new HashMap<String, String[]>();
+		String temp_curtopic = "";
 		String firstLine = hfList.get(index).get(0);
-		String qt_thrs = hfList.get(index).get(1); 
+//		System.out.println(firstLine);
 		
-		for(int i = 0; i < categories.length; i++){
-			
-			if(firstLine.contains(categories[i])){
-		
-		    String[] qt_thrs1 = qt_thrs.split("\\s+");
-	        String[] qt_thrs_array = new String[qt_thrs1.length-1];
-	        for(int j = 0; j < qt_thrs_array.length; j++){
-	            qt_thrs_array[j] = qt_thrs1[j+1];
+		for(int i = 0; i < categories.length; i++){			
+			if(firstLine.toLowerCase().contains(categories[i])){
+				temp_curtopic = categories[i];	
+				System.out.println(temp_curtopic);
 	        }
-			
-			
-	        /* save qt_thrs */
-	        temp_human_qt_thrs.put(categories[i], qt_thrs_array);
-			}
 		}
-		return temp_human_qt_thrs;
+		
+		return temp_curtopic;
 	}
 		
 
-	public HashMap<String, String[]> extractHumanScore(String[] categories, String[] speakers, ArrayList<ArrayList<String>> hfList, int index){
+	public HashMap<String, String[]> extractHumanScoreStrings(String[] categories, String[] speakers, ArrayList<ArrayList<String>> hfList, int index){
 		
 		HashMap<String, String[]> temp_human_scores = new HashMap<String, String[]>();
 		
@@ -275,6 +220,7 @@ public class ExtractInfo {
             for(int j = 2; j < hfList.get(index).size(); j ++){
             	
 	        	speaker = hfList.get(index).get(j);
+//	        	System.out.println("current human speaker string: " + speaker);
 	            for(int k = 0; k < speakers.length; k++){
 	                if(speaker.toLowerCase().contains(speakers[k] + " ")){
 	                     score_array[k] = speaker.toLowerCase();
@@ -288,10 +234,31 @@ public class ExtractInfo {
     }
 	
 	
+	public HashMap<String, String[]> extractAutoScoreStrings(String[] categories, String[] speakers, ArrayList<ArrayList<String>> afList, int index){
+		
+		HashMap<String, String[]> temp_auto_scores = new HashMap<String, String[]>();
+		
+		String speaker = "";
+        String[] score_array = new String[speakers.length];
+
+        for(int i = 0; i < categories.length; i++){
+            for(int j = 2; j < afList.get(index).size(); j ++){
+            	
+	        	speaker = afList.get(index).get(j);
+//	        	System.err.println("current auto speaker string: " + speaker);
+	            for(int k = 0; k < speakers.length; k++){
+	                if(speaker.toLowerCase().contains(speakers[k] + " ")){
+	                     score_array[k] = speaker.toLowerCase();
+	                }
+	            }
+	        }
+            temp_auto_scores.put(categories[i], score_array);
+        }
+              
+        return temp_auto_scores;
+    }
 
 
-	
-	
 	
 	
 	
