@@ -24,10 +24,10 @@ public class topic_control_sam {
 	
 	public static void main(String[] args){
 		
-		String human_annotation = "D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl_Annotated" ;
-        String auto_annotation = "D:/m2w cs/evaluation_sam/input_files/Dec05_TopicControl" ;
+		String human_annotation = "D:/m2w cs/evaluation_sam/input_files/Oct11_TopicControl_Annotated" ;
+        String auto_annotation = "D:/m2w cs/evaluation_sam/input_files/Oct11_TopicControl" ;
 
-        String evaluation_file = "D:/m2w cs/evaluation_sam/output_files/Dec05_TopicControl_result_ce";
+        String evaluation_file = "D:/m2w cs/evaluation_sam/output_files/Oct11_TopicControl_result_ce";
 		
         pr.setSpeakers_map(ei.extractSpeakers(human_annotation));
         pr.setCategories_map(ei.extractCategories(human_annotation));
