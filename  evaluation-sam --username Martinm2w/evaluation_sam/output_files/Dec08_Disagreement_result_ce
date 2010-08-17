@@ -1,0 +1,19 @@
+---------------- Disagreement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Disagreement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec08_Disagreement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ cdx ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+entourage < tasneem		entourage < tasneem
+entourage < mariam		entourage < mariam
+entourage < darshan		entourage < darshan
+entourage < imran		entourage = imran
+tasneem > mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem > imran		tasneem > imran
+mariam < darshan		mariam > darshan
+mariam < imran		mariam > imran
+darshan > imran		darshan > imran
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
