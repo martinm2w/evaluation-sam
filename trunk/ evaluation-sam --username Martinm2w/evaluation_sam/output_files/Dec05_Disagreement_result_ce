@@ -1,0 +1,15 @@
+---------------- Disagreement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Disagreement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Dec05_Disagreement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ cdx ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+sana > mariam		sana < mariam
+sana > darshan		sana < darshan
+sana < razi		sana < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::4		6		0.6666666666666666

@@ -1,0 +1,19 @@
+---------------- Disagreement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Disagreement_Annotated
+Auto annotated file: D:/m2w cs/evaluation_sam/input_files/Oct11_Disagreement
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ cdx ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+tasneem < hassan		tasneem < hassan
+tasneem = mariam		tasneem > mariam
+tasneem > darshan		tasneem > darshan
+tasneem < razi		tasneem < razi
+hassan > mariam		hassan > mariam
+hassan > darshan		hassan > darshan
+hassan < razi		hassan < razi
+mariam > darshan		mariam > darshan
+mariam < razi		mariam < razi
+darshan < razi		darshan < razi
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
