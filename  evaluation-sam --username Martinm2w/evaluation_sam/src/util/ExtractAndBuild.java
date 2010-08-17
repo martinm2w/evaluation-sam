@@ -11,7 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import util.*;
 
-import evaluation.topic_disagreement_sam;
+//import evaluation.topic_disagreement_sam;
 
 public class ExtractAndBuild {
 
@@ -114,7 +114,7 @@ public class ExtractAndBuild {
             br.close();
 
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(topic_disagreement_sam.class.getName()).log(Level.SEVERE, null, ex);
+//            Logger.getLogger(topic_disagreement_sam.class.getName()).log(Level.SEVERE, null, ex);
         }
           catch(IOException e){
 
@@ -197,7 +197,7 @@ public class ExtractAndBuild {
             br.close();
 
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(topic_disagreement_sam.class.getName()).log(Level.SEVERE, null, ex);
+//            Logger.getLogger(topic_disagreement_sam.class.getName()).log(Level.SEVERE, null, ex);
         }
           catch(IOException e){
 
